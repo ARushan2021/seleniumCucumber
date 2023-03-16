@@ -1,6 +1,6 @@
 package steps;
 
-import ru.appline.project.pages.AssertFilledFieldBTPage;
+import pages.AssertFilledFieldBTPage;
 
 public class AssertFilledFieldBTSteps {
 

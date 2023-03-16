@@ -4,7 +4,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ru.appline.project.BasePage;
+import base.BasePage;
 
 public class FilledFieldBTPage extends BasePage {
 

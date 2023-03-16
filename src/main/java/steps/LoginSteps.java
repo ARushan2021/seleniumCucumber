@@ -1,6 +1,6 @@
 package steps;
 
-import ru.appline.project.pages.LoginPage;
+import pages.LoginPage;
 
 public class LoginSteps {
 

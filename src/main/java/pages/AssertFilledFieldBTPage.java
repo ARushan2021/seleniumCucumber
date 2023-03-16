@@ -3,13 +3,13 @@ package pages;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ru.appline.project.BasePage;
+import base.BasePage;
 
 import java.util.Properties;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.appline.project.properties.TestProperties.getInstance;
+import static properties.TestProperties.getInstance;
 
 public class AssertFilledFieldBTPage extends BasePage {
 
@@ -113,5 +113,4 @@ public class AssertFilledFieldBTPage extends BasePage {
                 " 'Список командируемых сотрудников не может быть пустым' успешно сформировалось!!!");
     }
 }
-
 

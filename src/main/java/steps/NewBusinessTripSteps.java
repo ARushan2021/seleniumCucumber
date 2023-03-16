@@ -1,6 +1,6 @@
 package steps;
 
-import ru.appline.project.pages.NewBusinessTripPage;
+import pages.NewBusinessTripPage;
 
 public class NewBusinessTripSteps {
 

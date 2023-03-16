@@ -1,6 +1,6 @@
 package steps;
 
-import ru.appline.project.pages.FilledFieldBTPage;
+import pages.FilledFieldBTPage;
 
 public class FilledFieldBTSteps {
 
