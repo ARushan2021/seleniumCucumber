@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики">
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики 3">
+      <change afterPath="$PROJECT_DIR$/src/environmentAllure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/propertirs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/environment.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
       <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src" />
       <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\test\java\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678981174026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Копирую файлики 2">
+      <created>1678982160884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982160884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Копирую файлики 3">
+      <created>1678982225120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982225120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +126,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новой проект SeleniumCucumber" />
     <MESSAGE value="Копирую файлики" />
-    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики" />
+    <MESSAGE value="Копирую файлики 2" />
+    <MESSAGE value="Копирую файлики 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
