@@ -218,9 +218,9 @@
               <outputDirectory>target/allure-results</outputDirectory>
               <resources>
                 <resource>
-                  <directory>src/test/resources</directory>
+                  <directory>src/</directory>
                   <includes>
-                    <include>environment.properties</include>
+                    <include>environmentAllure.properties</include>
                   </includes>
                 </resource>
               </resources>
