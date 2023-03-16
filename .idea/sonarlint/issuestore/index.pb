@@ -6,7 +6,5 @@ U
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-\
-,src/main/java/properties/TestProperties.java,7\d\7d4807d5cd067f44a6b47e1fc910f70adcdaf677
 P
  src/environmentAllure.properties,c\d\cd34ca772dcf6b5735ef4b910f46adef90e252a8

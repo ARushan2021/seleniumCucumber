@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики 4">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Все странички заполнены, но тест валиться">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environmentAllure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
@@ -135,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678982492802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Все странички заполнены, но тест валиться">
+      <created>1678987831605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678987831605</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +154,8 @@
     <MESSAGE value="Копирую файлики 2" />
     <MESSAGE value="Копирую файлики 3" />
     <MESSAGE value="Копирую файлики 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики 4" />
+    <MESSAGE value="Все странички заполнены, но тест валиться" />
+    <option name="LAST_COMMIT_MESSAGE" value="Все странички заполнены, но тест валиться" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,9 +1,8 @@
 package pages;
 
-import io.qameta.allure.Step;
+import base.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import base.BasePage;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
@@ -24,7 +23,7 @@ public class NewBusinessTripPage extends BasePage {
     @FindBy(xpath = "//h1[@class='user-name']")
     private WebElement headerCreateBusinessTrip;
 
-    public void createBusinessTrip (){
+    public void createBusinessTrip() {
         expensesBtn.click();
         wait.until(visibilityOf(menuExpenses));
         businessTripBtn.click();

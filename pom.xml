@@ -189,7 +189,7 @@
         </dependencies>
 
       </plugin>
-      <!--
+
             <plugin>
               <groupId>io.qameta.allure</groupId>
               <artifactId>allure-maven</artifactId>
@@ -205,31 +205,6 @@
               </executions>
             </plugin>
 
-            <plugin>
-              <artifactId>maven-resources-plugin</artifactId>
-              <version>${maven-resources-plugin}</version>
-              <executions>
-                <execution>
-                  <id>copy-resources</id>
-                  <phase>validate</phase>
-                  <goals>
-                    <goal>copy-resources</goal>
-                  </goals>
-                  <configuration>
-                    <outputDirectory>target/allure-results</outputDirectory>
-                    <resources>
-                      <resource>
-                        <directory>src/</directory>
-                        <includes>
-                          <include>environmentAllure.properties</include>
-                        </includes>
-                      </resource>
-                    </resources>
-                  </configuration>
-                </execution>
-              </executions>
-            </plugin>
-      -->
           </plugins>
         </build>
       </project>

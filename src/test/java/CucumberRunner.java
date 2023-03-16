@@ -6,7 +6,6 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 
 @RunWith(Cucumber.class)
-
 @CucumberOptions(
         strict = true,
         features = {"src/test/features"},
@@ -16,8 +15,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 
 )
-
-public class   CucumberRunner {
+public class CucumberRunner {
 }
 
 
