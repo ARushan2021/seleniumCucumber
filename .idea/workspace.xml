@@ -4,20 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Все странички заполнены, но тест валиться">
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="добавил Hooks">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678987831605</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавил Hooks">
+      <created>1678989340228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678989340228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="добавил Hooks">
+      <created>1678989430212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678989430212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +177,8 @@
     <MESSAGE value="Копирую файлики 3" />
     <MESSAGE value="Копирую файлики 4" />
     <MESSAGE value="Все странички заполнены, но тест валиться" />
-    <option name="LAST_COMMIT_MESSAGE" value="Все странички заполнены, но тест валиться" />
+    <MESSAGE value="добавил Hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил Hooks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -13,7 +13,6 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         tags = "@all",
         plugin = {"pretty", "summary"}, snippets = CAMELCASE
 
-
 )
 public class CucumberRunner {
 }

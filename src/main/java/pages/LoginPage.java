@@ -1,9 +1,8 @@
 package pages;
 
-import io.qameta.allure.Step;
+import base.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import base.BasePage;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
