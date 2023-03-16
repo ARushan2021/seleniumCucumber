@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Новой проект SeleniumCucumber">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики">
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2N6JQa1XB77VokMKAsoFwi2w1Ss" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -99,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678978678528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Копирую файлики">
+      <created>1678981174026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678981174026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новой проект SeleniumCucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новой проект SeleniumCucumber" />
+    <MESSAGE value="Копирую файлики" />
+    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
