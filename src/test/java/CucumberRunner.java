@@ -9,7 +9,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions(
         strict = true,
         features = {"src/test/features"},
-        glue = {"step", "hooks"},
+        glue = {"steps", "hooks"},
         tags = "@all",
         plugin = {"pretty", "summary"}, snippets = CAMELCASE
 

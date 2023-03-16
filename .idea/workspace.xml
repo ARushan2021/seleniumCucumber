@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="добавил Hooks">
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="тест не работает">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/LoginSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
   </component>
   <component name="ChangesViewManager" show_ignored="true">
     <option name="groupingKeys">
-      <option value="module" />
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -57,18 +55,18 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/rafko/IdeaProjects/seleniumCucumber",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.4413793",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rafko/IdeaProjects/seleniumCucumber&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4413793&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\steps" />
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678989430212</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="тест не работает">
+      <created>1678993331856</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678993331856</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +183,8 @@
     <MESSAGE value="Копирую файлики 4" />
     <MESSAGE value="Все странички заполнены, но тест валиться" />
     <MESSAGE value="добавил Hooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил Hooks" />
+    <MESSAGE value="тест не работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест не работает" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

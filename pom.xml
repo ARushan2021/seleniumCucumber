@@ -60,7 +60,6 @@
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
       <version>5.7.0</version>
-      <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
     <dependency>
@@ -128,14 +127,15 @@
       <version>${aspectj.version}</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-install-plugin -->
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-install-plugin-->
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-install-plugin</artifactId>
       <version>${maven-install-plugin}</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->
+
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin-->
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-resources-plugin</artifactId>
@@ -185,26 +185,25 @@
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectj.version}</version>
           </dependency>
-
         </dependencies>
 
       </plugin>
 
-            <plugin>
-              <groupId>io.qameta.allure</groupId>
-              <artifactId>allure-maven</artifactId>
-              <version>${allure-maven}</version>
-              <executions>
-                <execution>
-                  <id>allure-report</id>
-                  <phase>post-integration-test</phase>
-                  <goals>
-                    <goal>report</goal>
-                  </goals>
-                </execution>
-              </executions>
-            </plugin>
+        <plugin>
+          <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-maven</artifactId>
+          <version>${allure-maven}</version>
+          <executions>
+            <execution>
+              <id>allure-report</id>
+              <phase>post-integration-test</phase>
+              <goals>
+                <goal>report</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
 
-          </plugins>
-        </build>
-      </project>
+    </plugins>
+  </build>
+</project>
