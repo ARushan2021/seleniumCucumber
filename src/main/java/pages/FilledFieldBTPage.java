@@ -35,7 +35,6 @@ public class FilledFieldBTPage extends BasePage {
     @FindBy(xpath = "//input[contains(@id, 'date_selector_crm_business_trip_returnDatePlan')]")
     private WebElement closeCalendarDatePlan;
 
-    @Step("шаг4 Заполнение полей новой командировки")
     public void FilledFieldBT(String inputArrivalCity, String departureDate, String returnDate) {
         //Поле Подразделение
         divisionField.click();

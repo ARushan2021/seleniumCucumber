@@ -55,11 +55,12 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>${junit.jupiter.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
       <version>5.7.0</version>
+      <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
     <dependency>
@@ -188,47 +189,47 @@
         </dependencies>
 
       </plugin>
+      <!--
+            <plugin>
+              <groupId>io.qameta.allure</groupId>
+              <artifactId>allure-maven</artifactId>
+              <version>${allure-maven}</version>
+              <executions>
+                <execution>
+                  <id>allure-report</id>
+                  <phase>post-integration-test</phase>
+                  <goals>
+                    <goal>report</goal>
+                  </goals>
+                </execution>
+              </executions>
+            </plugin>
 
-      <plugin>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-maven</artifactId>
-        <version>${allure-maven}</version>
-        <executions>
-          <execution>
-            <id>allure-report</id>
-            <phase>post-integration-test</phase>
-            <goals>
-              <goal>report</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>${maven-resources-plugin}</version>
-        <executions>
-          <execution>
-            <id>copy-resources</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>target/allure-results</outputDirectory>
-              <resources>
-                <resource>
-                  <directory>src/</directory>
-                  <includes>
-                    <include>environmentAllure.properties</include>
-                  </includes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
-    </plugins>
-  </build>
-</project>
+            <plugin>
+              <artifactId>maven-resources-plugin</artifactId>
+              <version>${maven-resources-plugin}</version>
+              <executions>
+                <execution>
+                  <id>copy-resources</id>
+                  <phase>validate</phase>
+                  <goals>
+                    <goal>copy-resources</goal>
+                  </goals>
+                  <configuration>
+                    <outputDirectory>target/allure-results</outputDirectory>
+                    <resources>
+                      <resource>
+                        <directory>src/</directory>
+                        <includes>
+                          <include>environmentAllure.properties</include>
+                        </includes>
+                      </resource>
+                    </resources>
+                  </configuration>
+                </execution>
+              </executions>
+            </plugin>
+      -->
+          </plugins>
+        </build>
+      </project>

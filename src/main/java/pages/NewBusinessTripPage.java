@@ -24,7 +24,6 @@ public class NewBusinessTripPage extends BasePage {
     @FindBy(xpath = "//h1[@class='user-name']")
     private WebElement headerCreateBusinessTrip;
 
-    @Step("шаг3 Открываем страницу для новой командировки")
     public void createBusinessTrip (){
         expensesBtn.click();
         wait.until(visibilityOf(menuExpenses));

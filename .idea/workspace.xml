@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики 3">
-      <change afterPath="$PROJECT_DIR$/src/environmentAllure.properties" afterDir="false" />
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Копирую файлики 4">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/propertirs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environmentAllure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/bussinesTripTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +62,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/rafko/IdeaProjects/seleniumCucumber/src/main/java/steps",
+    "last_opened_file_path": "C:/Users/rafko/IdeaProjects/seleniumCucumber",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.4413793",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -109,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678982225120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Копирую файлики 4">
+      <created>1678982487103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982487103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Копирую файлики 4">
+      <created>1678982492802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982492802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +154,8 @@
     <MESSAGE value="Копирую файлики" />
     <MESSAGE value="Копирую файлики 2" />
     <MESSAGE value="Копирую файлики 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики 3" />
+    <MESSAGE value="Копирую файлики 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Копирую файлики 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,15 +1,15 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import pages.FilledFieldBTPage;
 
 public class FilledFieldBTSteps {
 
-    public AssertFilledFieldBTSteps filledField(String inputArrivalCity, String departureDate, String returnDate) {
-        FilledFieldBTPage filledFieldBTPage = new FilledFieldBTPage();
+    FilledFieldBTPage filledFieldBTPage = new FilledFieldBTPage();
+
+    @And("^Заполняем поля командировки, в том числе: город прибытия \"([^\"]*)\", дата выбытия \"([^\"]*)\", дата прибытия \"([^\"]*)\"$")
+    public void AssertFilledFieldBTCucumber(String inputArrivalCity, String departureDate, String returnDate) {
         filledFieldBTPage.FilledFieldBT(inputArrivalCity, departureDate, returnDate);
-
-
-        return new AssertFilledFieldBTSteps();
     }
 
 }

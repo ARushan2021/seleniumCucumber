@@ -1,14 +1,14 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import pages.NewBusinessTripPage;
 
 public class NewBusinessTripSteps {
 
-    public FilledFieldBTSteps newBusinessTrip (){
-        NewBusinessTripPage newBusinessTripPage = new NewBusinessTripPage();
+    NewBusinessTripPage newBusinessTripPage = new NewBusinessTripPage();
+
+    @And("^Открываем страницу заявки новой командировки $")
+    public void newBusinessTripCucumber(){
         newBusinessTripPage.createBusinessTrip();
-
-    return new FilledFieldBTSteps();
-
     }
 }

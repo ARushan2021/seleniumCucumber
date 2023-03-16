@@ -56,7 +56,6 @@ public class AssertFilledFieldBTPage extends BasePage {
     private WebElement Informations;
 
     //Нажимаем кнопку сохранить, что-бы введенное значения сохранились в тэгах, атрибутах value, checked
-    @Step("шаг5 Нажимаем кнопку сохранить")
     public void CheckedValue() {
         checkedBtn.click();
         loading();
@@ -70,47 +69,37 @@ public class AssertFilledFieldBTPage extends BasePage {
     String dtRet = returnDate.getAttribute("value");
     String dtRetField = dtRet.substring(8, 10) + "." + dtRet.substring(5, 7) + "." + dtRet.substring(0, 4);
 
-    @Step("шаг6 Проверка всех введенных полей")
-    public void AssertAllBT() {
+    public void AssertAllBT(String inputArrivalCity, String departureDate, String returnDate) {
         MainInformation.click();
         assertAll("Следующее поле заполнено не верно: ",
-                () -> assertEquals(properties.getProperty("Division"),
+                () -> assertEquals("Research & Development",
                         divisionValue.getText(), "Подразделение"),
                 () -> assertEquals("(Хром) Призрачная Организация Охотников",
                         businessTripCompany.getAttribute("value"), "Организация"),
-                () -> assertEquals(properties.getProperty("Checkbox"),
+                () -> assertEquals("true",
                         checkBox.getAttribute("checked"), "Поле задача"));
 
         Informations.click();
         assertAll("Следующее поле заполнено не верно: ",
                 () -> assertEquals("Россия, Москва",
                         departureCity.getAttribute("value"), "Город выбытия"),
-                () -> assertEquals(properties.getProperty("inputArrivalCity"),
+                () -> assertEquals(inputArrivalCity,
                         arrivalCity.getAttribute("value"), "Город прибытия"),
-                () -> assertEquals(properties.getProperty("departureDate"), dtDepField, "Даты выбытия"),
-                () -> assertEquals(properties.getProperty("returnDate"), dtRetField, "Даты прибытия"));
+                () -> assertEquals(departureDate, dtDepField, "Даты выбытия"),
+                () -> assertEquals(returnDate, dtRetField, "Даты прибытия"));
     }
 
-    @Step("шаг7 Нажимаем кнопку 'Сохранить и закрыть'")
     public void saveAndClose() {
         saveAndCloseBtn.click();
         loading();
     }
 
-    @Step("шаг8 Проверка сообщения сообщение: 'Список командируемых сотрудников не может быть пустым'")
     public void assertEqualsBT() {
         businessTripEmployees.click();
         String validation_failed = "Список командируемых сотрудников не может быть пустым";
         assertEquals(validation_failed, validationFailed.getText(), "Нет сообщения сообщение:" +
                 "'Список командируемых сотрудников не может быть пустым'");
-
-
     }
 
-    @Step("шаг9 Выводим сообщение, что все успешно")
-    public void printMessage() {
-        System.out.println("Сообщение:" +
-                " 'Список командируемых сотрудников не может быть пустым' успешно сформировалось!!!");
-    }
 }
 
