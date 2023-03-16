@@ -4,16 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6552bc94-1b81-41db-9a61-0f1fa74f8b20" name="Changes" comment="Новой проект SeleniumCucumber">
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AssertFilledFieldBTPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FilledFieldBTPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewBusinessTripPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/AssertFilledFieldBTSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/FilledFieldBTSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/NewBusinessTripSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/TestProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,9 +60,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/rafko/IdeaProjects/seleniumCucumber/src/main/java/steps",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.4413793",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\steps" />
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\pages" />
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\base" />
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\main\java\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafko\IdeaProjects\seleniumCucumber\src\test\java\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="properties" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +92,33 @@
       <option name="presentableId" value="Default" />
       <updated>1678978584018</updated>
     </task>
+    <task id="LOCAL-00001" summary="Новой проект SeleniumCucumber">
+      <created>1678978678528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678978678528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Новой проект SeleniumCucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Новой проект SeleniumCucumber" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
