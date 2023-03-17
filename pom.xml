@@ -22,24 +22,18 @@
     <maven.compiler.source>19</maven.compiler.source>
     <maven.compiler.target>19</maven.compiler.target>
 
-    <!-- Dependencies version -->
-    <junit.jupiter.version>5.9.1</junit.jupiter.version>
     <selenium.version>4.1.0</selenium.version>
-    <aspectj.version>1.9.19</aspectj.version>
-    <junit-jupiter-engine>5.9.1</junit-jupiter-engine>
-    <junit-platform-launcher>1.8.2</junit-platform-launcher>
-    <junit-platform-surefire-provider>1.3.2</junit-platform-surefire-provider>
-    <allure-junit5>2.16.1</allure-junit5>
+    <junit.jupiter.version>5.9.1</junit.jupiter.version>
+    <cucumber>7.0.0</cucumber>
+    <junit.jupiter.version>5.9.1</junit.jupiter.version>
+    <junit-vintage-engine>5.9.1</junit-vintage-engine>
+    <allure-cucumber7-jvm>2.17.0</allure-cucumber7-jvm>
     <slf4j-simple>1.7.30</slf4j-simple>
-    <maven-install-plugin>3.1.0</maven-install-plugin>
-    <maven-resources-plugin>3.2.0</maven-resources-plugin>
+    <aspectj.version>1.9.19</aspectj.version>
     <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
-    <maven-surefire-plugin>3.0.0-M5</maven-surefire-plugin>
+    <maven-surefire-plugin>2.22.2</maven-surefire-plugin>
     <allure-maven>2.10.0</allure-maven>
-    <maven-resources-plugin>3.2.0</maven-resources-plugin>
-
   </properties>
-
 
   <dependencies>
 
@@ -59,7 +53,7 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>7.0.0</version>
+      <version>${cucumber}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
     <dependency>
@@ -71,13 +65,13 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-core</artifactId>
-      <version>7.0.0</version>
+      <version>${cucumber}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
-      <version>7.0.0</version>
+      <version>${cucumber}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
     <dependency>
@@ -119,7 +113,7 @@
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
           <!-- Маска файликов, которые будут запущенны  -->
-          <includes>**/TestBusinessTripSecond.java</includes>
+          <includes>**/CucumberRunner.java</includes>
           <argLine>
             <!-- Сколько оперативной памяти выделяем для запуска тестов -->
             -Xmx1024m

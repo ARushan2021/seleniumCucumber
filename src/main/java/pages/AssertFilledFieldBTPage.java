@@ -1,9 +1,8 @@
 package pages;
 
-import io.qameta.allure.Step;
+import base.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import base.BasePage;
 
 import java.util.Properties;
 
@@ -14,7 +13,7 @@ import static properties.TestProperties.getInstance;
 public class AssertFilledFieldBTPage extends BasePage {
 
     private final Properties properties = getInstance().getProperties();
-
+    FilledFieldBTPage filledFieldBTPage = new FilledFieldBTPage();
 
     @FindBy(xpath = "//button[@class='btn btn-success main-group action-button']")
     public WebElement checkedBtn;

@@ -1,9 +1,14 @@
 @all
 @severity=blocked
 Feature: НоваяКомандировка
+
   @Командировка
-  Scenario: scenario
+  Scenario Outline: НоваяКомандировка
     And Старица авторизации: вводим логин "Sekretar Kompanii", пароль "testing"
     And Открываем страницу заявки новой командировки
-    And Заполняем поля командировки, в том числе: город прибытия "Sankt-Peterburg", дата выбытия "06.03.2023", дата прибытия "05.04.2023"
-    And Проверяем поля, в том числе: город прибытия "Sankt-Peterburg", дата выбытия "06.03.2023", дата прибытия "05.04.2023"
+    And Заполняем поля командировки, в том числе: город прибытия "<ArrivalCity>", дата выбытия "<departureDate>", дата прибытия "<returnDate>"
+    And Проверяем поля, в том числе: город прибытия "<ArrivalCity>", дата выбытия "<departureDate>", дата прибытия "<returnDate>"
+
+    Examples:
+      | ArrivalCity     | departureDate | returnDate |
+      | Sankt-Peterburg | 06.03.2023    | 05.04.2023 |

@@ -1,10 +1,12 @@
 package pages;
 
-import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import base.BasePage;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FilledFieldBTPage extends BasePage {
 
@@ -54,4 +56,9 @@ public class FilledFieldBTPage extends BasePage {
         closeCalendarDatePlan.sendKeys(Keys.ESCAPE);
     }
 }
+
+
+
+
+
 

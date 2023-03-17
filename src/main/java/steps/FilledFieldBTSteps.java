@@ -11,5 +11,6 @@ public class FilledFieldBTSteps {
     public void AssertFilledFieldBTCucumber(String inputArrivalCity, String departureDate, String returnDate) {
         filledFieldBTPage.FilledFieldBT(inputArrivalCity, departureDate, returnDate);
     }
-
 }
+
+

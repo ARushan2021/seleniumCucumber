@@ -1,10 +1,12 @@
 package base;
 
+import org.checkerframework.checker.units.qual.Time;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 import java.util.Properties;
+import java.util.Timer;
 
 import static java.lang.System.setProperty;
 import static properties.TestProperties.getInstance;
@@ -31,9 +33,9 @@ public class DriverManager {
     }
 
     public static void closeDriver() {
-        driver.quit();
-
+        if(driver != null){
+            driver.quit();
+            driver = null;
+        }
     }
-
-
 }
